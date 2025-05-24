@@ -5,19 +5,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
   
   <title>Frontend Mentor | Recipe page</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
 <body>
-<main>
+
   <div class="container">
-    <img src="assets/images/image-omelette.jpeg" alt="A well cooked Omelette">
+    <img class="recipe-img" src="assets/images/image-omelette.jpeg" alt="A well cooked Omelette">
     <h1>Simple Omelette Recipe</h1>
     <p class="description">An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked to perfection, optionally filled with your choice of cheese, vegetables, or meats</p>
 
@@ -30,7 +31,7 @@
       </ul>
     </div>
     
-      <h2>Ingredients</h2>
+      <h2 style="padding: 10px;">Ingredients</h2>
       <ul class="ingredients-list">
         <li>2-3 large eggs</li>
         <li>Salt and pepper to taste</li>
@@ -40,7 +41,7 @@
     
     <hr>
     
-      <h2>Instructions</h2>
+      <h2 style="padding: 10px;">Instructions</h2>
       <ol class="instructions-list">
         <li>
           <span class="step-title"><strong>Beat the eggs:</strong></span> In a bowl, beat the eggs with a pinch of salt and pepper until they are
@@ -67,9 +68,9 @@
       </ol>
       <hr>
 
-      <h2>Nutrition</h2>
-      <p>The table below shows nutritional values per serving without the additional fillings</p>
-      <table class="nutrition-table">
+      <h2 style="padding: 10px;">Nutrition</h2>
+      <p style="padding: 10px;">The table below shows nutritional values per serving without the additional fillings</p>
+      <table class="nutrition-table" >
         <tr>
             <td>Calories</td>
             <td>277kcal</td>
@@ -88,10 +89,8 @@
             <td>22g</td>
         </tr>
     </table>
-
-</main>
-  
-  <footer class="attribution">
+</div> 
+ <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>
     Coded by <a href="#">Sandra Ilavoga</a>.
   </footer>
